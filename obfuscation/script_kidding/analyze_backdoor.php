@@ -83,5 +83,4 @@ if (!isset($approvals['ak']) || !(basic_xor(key_getter(), 'dfvaijpefajewpfja9gjd
             break;
     }
     exit();
-
 }
