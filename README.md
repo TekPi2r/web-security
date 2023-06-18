@@ -12,6 +12,9 @@ Ce document est un compte rendu final qui fournit des explications détaillées 
 Consultez [ce lien](https://docs.google.com/document/d/1yjX_1b3xaxM---C4otPZXdM3CLrQBeUi7DPDoup1jeo/edit?usp=sharing) pour accéder au document complet.
 
 ## 🏆 Challenges réussis
+💬 Partie: Openfield 💥
+- Wordstress
+
 ⛪ Partie: Graphql 🕇
 - Confessions
 
