@@ -1,4 +1,4 @@
-# Web Security Write Up
+# Web Security CTF
 
 ## Introduction
 Web Security CTF est un défi Capture The Flag organisé dans le cadre du module de sécurité Web de la 5e année à Epitech.
@@ -8,7 +8,8 @@ Web Security CTF est un défi Capture The Flag organisé dans le cadre du module
 - Thomas LOPEZ: thomas1.lopez@epitech.eu
 
 ## Notre WriteUp
-Ce document est un compte rendu final qui fournit des explications détaillées sur la résolution des défis et donne des descriptions exhaustives de notre approche. Consultez [ce lien](https://docs.google.com/document/d/1yjX_1b3xaxM---C4otPZXdM3CLrQBeUi7DPDoup1jeo/edit?usp=sharing) pour accéder au document complet.
+Ce document est un compte rendu final qui fournit des explications détaillées sur la résolution des challenges et donne des descriptions exhaustives de notre approche.
+Consultez [ce lien](https://docs.google.com/document/d/1yjX_1b3xaxM---C4otPZXdM3CLrQBeUi7DPDoup1jeo/edit?usp=sharing) pour accéder au document complet.
 
 ## Challenges réussis
 ⛪ Partie: Graphql 🕇
