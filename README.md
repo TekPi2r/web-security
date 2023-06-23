@@ -6,6 +6,7 @@ Web Security CTF est un défi Capture The Flag organisé dans le cadre du module
 ## 🌿 Team verte
 - Pierre DALLARA: pierre1.dallara@epitech.eu
 - Thomas LOPEZ: thomas1.lopez@epitech.eu
+- Reda BERBICHE: reda.berbiche@epitech.eu
 
 ## 📑 Notre WriteUp
 Ce document est un compte rendu final qui fournit des explications détaillées sur la résolution des challenges et donne des descriptions exhaustives de notre approche.
